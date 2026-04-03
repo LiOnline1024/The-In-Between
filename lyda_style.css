@@ -1,0 +1,365 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f5f5f5;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #0066ff;
+    border: 3.5px solid Yellow;
+    font-size: xx-large;
+    font-family:  'Times New Roman', Times, serif;
+    text-shadow: 0.05em 0 rgb(0, 0, 0), 0 0.05em black, -0.05em 0 black, 0 -0.05em black, -0.05em -0.05em black, -0.05em 0.05em black, 0.05em -0.05em black, 0.05em 0.05em black;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+}
+
+.menu a {
+    margin: 0;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: black;
+    border-radius: 8px;
+    font-weight: bold;
+    outline: 3px solid rgba(255, 255, 255, 0.2);
+}
+
+.menu a:hover {
+    background: rgba(255, 255, 255, 0.85);
+    color: rgb(180, 19, 19);
+    transition: 0.3s;
+}
+
+/* HERO */
+.hero {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+/* LEFT */
+.text {
+    max-width: 500px;
+    background: rgb(0, 110, 255);
+    padding: 24px;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+    border: 2px solid black;
+}
+
+.intro {
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    font-family: Times New Roman;
+    text-shadow: 0.05em 0 rgb(0, 0, 0), 0 0.05em black, -0.05em 0 black, 0 -0.05em black, -0.05em -0.05em black, -0.05em 0.05em black, 0.05em -0.05em black, 0.05em 0.05em black;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+h3 {
+    color: #000000;
+}
+
+.desc {
+    color: rgb(255, 255, 255);
+    margin: 20px 0;
+    
+    text-shadow: 0.05em 0 rgb(0, 0, 0), 0 0.05em black, -0.05em 0 black, 0 -0.05em black, -0.05em -0.05em black, -0.05em 0.05em black, 0.05em -0.05em black, 0.05em 0.05em black;
+}
+
+button {
+    background: #ffffff;
+    color: #0084ff;
+    border: none;
+    padding: 24px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    display: block;
+    margin: 24px auto 0;
+    text-decoration: none;
+}
+
+.text a {
+    text-decoration: none;
+}
+
+.text a:hover {
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.85);
+    color: rgb(180, 19, 19);
+    transition: 0.3s;
+}
+
+/* RIGHT IMAGE */
+.image {
+    position: relative;
+}
+
+.square {
+    width: 300px;
+    border: 10px solid #00aeff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+/* HEADER */
+.about-header {
+    text-align: center;
+    padding: 40px;
+    background: #ff3c00;
+    color: white;
+}
+
+/* ABOUT SECTION */
+.about {
+    display: flex;
+    padding: 50px;
+    align-items: center;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-image img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* CARDS */
+.cards {
+    display: flex;
+    padding: 20px 50px;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    flex: 1;
+}
+
+/* TEAM */
+.team {
+    text-align: center;
+    padding: 40px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.member img {
+    width: 150px;
+    height: 150px;
+    
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    color: white;
+}
+
+/* SERVICES HEADER */
+.services-header {
+    text-align: center;
+    padding: 40px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    
+}
+
+/* SERVICES SECTION */
+.services {
+    display: flex;
+    gap: 20px;
+    padding: 40px 50px;
+    background: rgb(0, 0, 0);
+}
+
+/* SERVICE CARD */
+.service-card {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* HOVER EFFECT */
+.service-card:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+    color: white;
+}
+
+/* Character page variant hover colors */
+.services .service-card:nth-child(1):hover {
+    background: #006eff;
+}
+.services .service-card:nth-child(2):hover {
+    background: #9736c4;
+}
+.services .service-card:nth-child(3):hover {
+    background: #ffd000;
+}
+.services:nth-of-type(2) .service-card:nth-child(1):hover {
+    background: #fc3333;
+}
+.services:nth-of-type(2) .service-card:nth-child(2):hover {
+    background: #000000;
+    color:#f5f5f5
+}
+.services:nth-of-type(2) .service-card:nth-child(3):hover {
+    background: #129706;
+}
+.services:nth-of-type(3) .service-card:nth-child(1):hover {
+    background: #ff8800;
+}
+.services:nth-of-type(3) .service-card:nth-child(2):hover {
+    background: #ff78f8;
+}
+.services:nth-of-type(3) .service-card:nth-child(3):hover {
+    background: #5d00a8;
+}
+
+/* HEADER */
+.exp-header {
+    text-align: center;
+    padding: 40px;
+    background: #222;
+    color: white;
+}
+
+/* EXPERIENCE SECTION */
+.experience {
+    padding: 40px 50px;
+}
+
+/* EXPERIENCE CARDS */
+.exp-card {
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-left: 5px solid #ff3c00;
+}
+
+/* HOVER EFFECT */
+.exp-card:hover {
+    transform: translateX(10px);
+    transition: 0.3s;
+}
+
+/* HEADER */
+.portfolio-header {
+    text-align: center;
+    padding: 40px;
+    background: #000000;
+    color: white;
+}
+
+/* GRID LAYOUT */
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 50px;
+}
+
+/* PROJECT CARD */
+.project {
+    width: calc(33.33% - 20px);
+    background: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* IMAGE */
+.project img {
+    width: 100%;
+    justify-content: center; /* Horizontal center */
+align-items: center; /* Vertical center */
+
+}
+
+/* HOVER EFFECT */
+.project:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* HEADER */
+.contact-header {
+    text-align: center;
+    padding: 40px;
+    background: #222;
+    color: white;
+}
+
+/* CONTACT SECTION */
+.contact {
+    display: flex;
+    padding: 40px 50px;
+    gap: 30px;
+}
+
+/* FORM */
+.contact-form {
+    flex: 1;
+    background: white;
+    padding: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+/* BUTTON */
+.contact-form input[type="submit"] {
+    background: #ff3c00;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* INFO */
+.contact-info {
+    flex: 1;
+    background: white;
+    padding: 20px;
+}
