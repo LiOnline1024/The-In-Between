@@ -10,8 +10,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    background: #0066ff;
-    border: 3.5px solid Yellow;
+    background: #df8b3d;
+    border: 3.5px solid rgb(0, 0, 0);
     font-size: xx-large;
     font-family:  'Times New Roman', Times, serif;
     text-shadow: 0.05em 0 rgb(0, 0, 0), 0 0.05em black, -0.05em 0 black, 0 -0.05em black, -0.05em -0.05em black, -0.05em 0.05em black, 0.05em -0.05em black, 0.05em 0.05em black;
@@ -58,7 +58,7 @@ nav {
     display: flex;
     padding: 50px;
     align-items: center;
-    background: rgb(0, 81, 255);
+    background: #df8b3d;
     color:rgb(0, 0, 0);
     font-family: 'Monospace', monospace;
     font-size: large;
@@ -70,7 +70,7 @@ nav {
 
 .about-box {
   background: rgba(255, 255, 255, 0.7);   /* black translucent */
-  color:#006eff;
+  color:#df8b3d;
   padding: 20px;
   border-radius: 12px;
   border: 3px solid #000000;           /* optional */
@@ -92,7 +92,7 @@ nav {
 }
 
 .card {
-    background: rgb(0, 89, 255);
+    background: #df8b3d;
     padding: 20px;
     flex: 1;
 }
